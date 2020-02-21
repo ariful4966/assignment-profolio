@@ -9,11 +9,30 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Lobster Two', sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
 }
 .container{
     width: 80%;
     margin: 0 auto;
     height: 500px;
+}
+p {
+    font-size: 14px;
+    color: #5e6577;
 }
 img{
     width: 100%;
@@ -39,9 +58,107 @@ img{
     width: 50%;
     margin-right: 0;
 }
-
-
-
+section{
+    padding: 50px 0;
+}
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.presentation-area{
+    background-image:url("../img/header-bg.png");
+}
+.biography-area{
+    background-image: url("../img/biography-bg.png");
+}
+.work-area{
+    background-image: url("../img/latest-work-bg.png");
+    position: relative;
+}
+.footer-area{
+    background-image: url("../img/footer-bg.png");
+}
 .footer{
     height: 100px;
+    text-align: center;
+}
+/* presentation-area */
+.present span{
+    font-size: 75px;
+    font-weight: 700;
+    margin: 20px 0;
+    display: inline-block;
+}
+.present .name-heighlight{
+    color:#EC4C7A;
+}
+.present .nicname{
+    color:#369EF3;
+}
+.present article h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFA430;
+}
+.link-button{
+    background-image: linear-gradient(to right, #D9511F, #EC4F94);
+    font-size: 16px;
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.section-heading h2{
+    text-align: center;
+    display: block;
+    margin: 50px 0;
+}
+.work-section{
+    padding: 50px 0;
+    display: block;
+}
+.client-area{
+    text-align: center;
+}
+.single-client h4 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.single-client p {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 40px 0;
+}
+.single-client p.client-position {
+    margin: 10px 0;
+    padding: 0;
+    color: rgb(153, 153, 160);
+    font-size: 14px;
+    font-weight: 500;
+}
+.client-massage a {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.client-massage a p {
+    color: #fff;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.client-massage a h3 {
+    padding: 10px 0 35px;
+    font-size: 40px;
+}
+.footer p {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#909092
 }
