@@ -83,6 +83,11 @@ section{
     height: 100px;
     text-align: center;
 }
+.item-padding {
+    display: block;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
 /* presentation-area */
 .present span{
     font-size: 75px;
@@ -132,6 +137,7 @@ section{
     transform: scale(1);
     opacity: 1;
 }
+/* latest work section */
 .section-heading h2{
     text-align: center;
     display: block;
@@ -141,6 +147,7 @@ section{
     padding: 50px 0;
     display: block;
 }
+/* Why our client say */
 .client-area{
     text-align: center;
 }
@@ -178,6 +185,7 @@ section{
     padding: 10px 0 35px;
     font-size: 40px;
 }
+/* footer */
 .footer p {
     font-size: 12px;
     font-weight: 700;
