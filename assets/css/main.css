@@ -72,6 +72,9 @@ section{
 .biography-area{
     background-image: url("../img/biography-bg.png");
 }
+.container.work {
+    height: 450px;
+}
 .work-area{
     background-image: url("../img/latest-work-bg.png");
     position: relative;
